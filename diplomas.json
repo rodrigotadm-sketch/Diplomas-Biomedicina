@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "versao": "3.0",
+    "atualizadoEm": "2026-08-31",
+    "tituloPagina": "Diplomas | Biomedicina UFPR"
+  },
+  "hero": {
+    "eyebrow": "🎓 Coordenação do Curso de Biomedicina · UFPR",
+    "titulo": "Diploma Digital e RVDD",
+    "subtitulo": "Entenda a diferença entre o <strong>Diploma Digital</strong>, que é o documento oficial, e a <strong>Representação Visual do Diploma Digital (RVDD)</strong>, que é uma impressão opcional.",
+    "botoes": [
+      {
+        "rotulo": "Acessar Portal do Egresso ↗",
+        "url": "https://siga.ufpr.br/siga/login",
+        "estilo": "primary",
+        "externo": true
+      },
+      {
+        "rotulo": "Quero solicitar a RVDD",
+        "url": "#rvdd",
+        "estilo": "ghost",
+        "externo": false
+      }
+    ]
+  },
+  "comparacao": {
+    "titulo": "Antes de solicitar: qual é a diferença?",
+    "lead": "A impressão não é necessária para que seu diploma tenha validade. Veja abaixo qual documento você realmente precisa.",
+    "cards": [
+      {
+        "tipo": "diploma",
+        "icone": "🎓",
+        "titulo": "Diploma Digital",
+        "selo": "DOCUMENTO OFICIAL",
+        "descricao": "É o diploma de graduação emitido e registrado digitalmente pela UFPR. O egresso acompanha o trâmite e acessa os documentos pelo perfil <strong>Discente Egresso</strong> no SIGA.",
+        "itens": [
+          "Possui validade jurídica.",
+          "É emitido em formato digital.",
+          "Pode ser acessado após a conclusão do processo de emissão e registro.",
+          "Não exige solicitação de impressão para ter validade."
+        ]
+      },
+      {
+        "tipo": "rvdd",
+        "icone": "📄",
+        "titulo": "RVDD",
+        "selo": "IMPRESSÃO OPCIONAL",
+        "descricao": "A <strong>Representação Visual do Diploma Digital</strong> é uma versão visual impressa do diploma, produzida pela UFPR com papel e tratamento gráfico próprios.",
+        "itens": [
+          "É opcional.",
+          "Não é um segundo diploma.",
+          "Remete ao Diploma Digital por QR Code e código de validação.",
+          "A própria representação visual não possui validade jurídica independente do Diploma Digital."
+        ]
+      }
+    ],
+    "resumo": "💡 <strong>Em resumo:</strong> Diploma Digital = documento oficial. RVDD = representação impressa opcional do Diploma Digital."
+  },
+  "rvdd": {
+    "titulo": "Como solicitar a impressão da RVDD",
+    "lead": "A solicitação é feita por meio da Coordenação do Curso de Biomedicina após o preenchimento do requerimento e o pagamento da taxa.",
+    "taxa": {
+      "valor": "R$ 75,00",
+      "ano": 2026,
+      "numeroReferencia": "1715366206001"
+    },
+    "etapas": [
+      {
+        "titulo": "Preencha o requerimento",
+        "texto": "Baixe o formulário de solicitação da RVDD, preencha os dados solicitados e assine o documento.",
+        "complemento": "<a href=\"https://bio.ufpr.br/biomedicina/wp-content/uploads/sites/4/2026/08/Requerimento_RVDD.pdf\" target=\"_blank\" rel=\"noopener\"><strong>Abrir requerimento ↗</strong></a>"
+      },
+      {
+        "titulo": "Faça o pagamento",
+        "texto": "A impressão institucional da RVDD possui taxa de <strong>R$ 75,00</strong>. No sistema de arrecadação da UFPR, selecione a opção relativa à obtenção de diploma/2ª via de diploma de graduação.",
+        "complemento": "Número de referência da RVDD de graduação: <strong>1715366206001</strong>."
+      },
+      {
+        "titulo": "Envie à Coordenação",
+        "texto": "Encaminhe o <strong>requerimento preenchido e assinado</strong>, a <strong>guia/comprovante do pagamento</strong> e demais documentos gerados pelo sistema para a Coordenação.",
+        "complemento": "<a href=\"mailto:biomedicina@ufpr.br?subject=Solicita%C3%A7%C3%A3o%20de%20impress%C3%A3o%20da%20RVDD\"><strong>biomedicina@ufpr.br</strong></a>"
+      }
+    ],
+    "pagamentoNota": "<strong>Pagamento:</strong> o módulo de Arrecadação da UFPR permite escolher, ao final do procedimento, entre PIX, cartão de crédito ou GRU/boleto, conforme as opções disponíveis no sistema."
+  },
+  "acessos": {
+    "titulo": "Acessos rápidos",
+    "lead": "Links diretos para acompanhar o diploma e solicitar a representação impressa.",
+    "itens": [
+      {
+        "icone": "🎓",
+        "titulo": "Portal do Egresso",
+        "descricao": "Acesse o SIGA e selecione o perfil Discente Egresso.",
+        "url": "https://siga.ufpr.br/siga/login",
+        "externo": true
+      },
+      {
+        "icone": "📝",
+        "titulo": "Requerimento RVDD",
+        "descricao": "Baixe o formulário para preenchimento e assinatura.",
+        "url": "https://bio.ufpr.br/biomedicina/wp-content/uploads/sites/4/2026/08/Requerimento_RVDD.pdf",
+        "externo": true
+      },
+      {
+        "icone": "💳",
+        "titulo": "Pagamento da taxa",
+        "descricao": "Acesse o módulo oficial de Arrecadação da UFPR.",
+        "url": "https://intranet.ufpr.br/arrecadacao/public/index.jsf",
+        "externo": true
+      },
+      {
+        "icone": "✉️",
+        "titulo": "Contato da Coordenação",
+        "descricao": "Envie a documentação ou solicite orientação.",
+        "url": "mailto:biomedicina@ufpr.br?subject=Solicita%C3%A7%C3%A3o%20de%20impress%C3%A3o%20da%20RVDD",
+        "externo": false
+      }
+    ]
+  },
+  "faq": {
+    "titulo": "Dúvidas frequentes",
+    "lead": "Respostas rápidas para as principais dúvidas sobre o Diploma Digital e a RVDD.",
+    "itens": [
+      {
+        "pergunta": "Preciso solicitar a RVDD para meu diploma ter validade?",
+        "resposta": "Não. O Diploma Digital é o documento oficial. A RVDD é uma representação visual impressa e opcional."
+      },
+      {
+        "pergunta": "A RVDD é uma segunda via do diploma?",
+        "resposta": "Não. A RVDD é a representação visual do Diploma Digital. Solicitação de segunda via do diploma é um procedimento diferente."
+      },
+      {
+        "pergunta": "Posso imprimir o PDF da representação visual por conta própria?",
+        "resposta": "O SIGA disponibiliza a representação visual em PDF, que pode ser impressa pelo egresso. A solicitação de RVDD tratada nesta página refere-se à impressão institucional com papel e tratamento gráfico da UFPR."
+      },
+      {
+        "pergunta": "Qual é o valor da impressão institucional da RVDD?",
+        "resposta": "O valor informado pela UFPR para 2026 é de <strong>R$ 75,00</strong>."
+      },
+      {
+        "pergunta": "Onde acompanho a emissão do meu Diploma Digital?",
+        "resposta": "No SIGA, após a colação de grau e a liberação do perfil, selecione <strong>Discente Egresso da Graduação</strong>. Nesse perfil é possível acompanhar o trâmite e acessar os documentos disponibilizados."
+      },
+      {
+        "pergunta": "Quanto tempo a UFPR pode levar para expedir e registrar o diploma?",
+        "resposta": "A Unidade de Diplomas informa prazo de até <strong>120 dias após a data da colação de grau</strong> para expedição e registro."
+      },
+      {
+        "pergunta": "O que devo enviar para a Coordenação para solicitar a RVDD?",
+        "resposta": "Envie o requerimento preenchido e assinado e os comprovantes relativos ao pagamento da taxa para <strong>biomedicina@ufpr.br</strong>."
+      },
+      {
+        "pergunta": "Onde retiro a RVDD quando estiver pronta?",
+        "resposta": "Após o processamento, a Coordenação comunicará o egresso quando houver orientação para retirada. As informações de local e horário devem ser confirmadas na comunicação da UFPR, pois podem sofrer atualização."
+      }
+    ]
+  },
+  "rodape": {
+    "texto": "<strong>Informações atualizadas para 2026.</strong> Referências institucionais: Unidade de Diplomas/PROGRAP, orientações de pagamento da UFPR e Coordenação do Curso de Biomedicina. Taxas e procedimentos administrativos podem ser atualizados pela Universidade; em caso de divergência, prevalecem as normas e orientações oficiais vigentes."
+  }
+}
