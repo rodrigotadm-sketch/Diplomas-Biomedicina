@@ -1,0 +1,10 @@
+<!-- Substitua SEU-USUARIO/SEU-REPOSITORIO pela URL final publicada no GitHub Pages -->
+<iframe
+  src="https://rodrigotadm-sketch.github.io/Diplomas-Biomedicina-V2/"
+  title="Diplomas — Biomedicina UFPR"
+  width="100%"
+  height="2850"
+  style="border:0; width:100%; min-height:2850px;"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
