@@ -54,7 +54,7 @@
     "botoes": [
       {"rotulo":"Pagar taxa na UFPR","url":"https://intranet.ufpr.br/arrecadacao/public/index.jsf","tipo":"primario"},
       {"rotulo":"Tutorial de pagamento","url":"https://bio.ufpr.br/biomedicina/wp-content/uploads/sites/4/2026/09/tutorial-pagamento-taxas-rvdd.pdf","tipo":"secundario"},
-      {"rotulo":"Requerimento RVDD","url":"https://bio.ufpr.br/biomedicina/wp-content/uploads/sites/4/2026/08/Requerimento_RVDD.pdf","tipo":"secundario"}
+      {"rotulo":"Requerimento RVDD","url":"https://bio.ufpr.br/biomedicina/wp-content/uploads/sites/4/2026/09/Requerimento_Impressao_RVDD_Atualizado.docx","tipo":"secundario"}
     ]
   },
   "correcao": {
