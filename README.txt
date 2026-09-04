@@ -1,19 +1,25 @@
-DIPLOMAS — BIOMEDICINA UFPR V2
+DIPLOMAS — BIOMEDICINA UFPR · V2.1
+Atualização: 04/09/2026
 
-Arquivos:
-- index.html: estrutura da página
-- styles.css: identidade visual responsiva em padrão verde
-- app.js: carrega e monta a página a partir do JSON
-- dados.json: conteúdo editável (textos, taxas, links, endereço e contatos)
-- documentos/: PDFs oficiais fornecidos para a atualização
+Publicação esperada:
+https://rodrigotadm-sketch.github.io/Diplomas-Biomedicina/
 
-PUBLICAÇÃO NO GITHUB PAGES
-1. Crie/atualize o repositório desejado.
-2. Envie TODO o conteúdo desta pasta para a raiz do repositório.
-3. Ative GitHub Pages na branch main / root.
-4. Aguarde a publicação e teste os botões.
+Envie TODOS os arquivos deste diretório para a RAIZ do repositório Diplomas-Biomedicina:
+- index.html
+- styles.css
+- app.js
+- dados.json
+- orientacoes-diploma-digital.pdf
+- tutorial-pagamento-taxas-rvdd.pdf
+- iframe-wordpress.txt
+
+Âncoras preservadas:
+#diploma-digital
+#rvdd
+#correcao
+#segunda-via
 
 IMPORTANTE
-Os valores de R$ 75,00 (RVDD) e R$ 295,00 (2ª via de diploma físico), o código 11845 e o número de referência 1715366206001 foram inseridos conforme os documentos fornecidos em setembro de 2026.
+A V2.1 possui uma cópia interna dos dados essenciais em app.js. Se dados.json não puder ser carregado, a página continua exibindo o conteúdo. Para manutenção normal, edite dados.json e mantenha os arquivos da raiz juntos.
 
-Para futuras alterações de valor, horário, contato ou link, edite apenas dados.json.
+Os dois PDFs foram colocados na raiz para evitar erros por caminhos de subpastas no GitHub Pages.

@@ -2,7 +2,7 @@
   "meta": {
     "titulo": "Diplomas — Biomedicina UFPR",
     "subtitulo": "Orientações para egressos sobre Diploma Digital, RVDD, correção de dados e segunda via de diplomas físicos.",
-    "versao": "2.0",
+    "versao": "2.1",
     "atualizadoEm": "04/09/2026"
   },
   "avisos": [
@@ -29,7 +29,7 @@
     ],
     "observacao": "A representação visual não substitui o Diploma Digital. Ela serve para exibição e consulta dos dados e contém QR Code e código de validação.",
     "botoes": [
-      {"rotulo":"Orientações completas da Unidade de Diplomas","url":"documentos/orientacoes-diploma-digital.pdf","tipo":"primario"}
+      {"rotulo":"Orientações completas da Unidade de Diplomas","url":"./orientacoes-diploma-digital.pdf","tipo":"primario"}
     ]
   },
   "rvdd": {
@@ -53,7 +53,7 @@
     },
     "botoes": [
       {"rotulo":"Pagar taxa na UFPR","url":"https://intranet.ufpr.br/arrecadacao/public/index.jsf","tipo":"primario"},
-      {"rotulo":"Tutorial de pagamento","url":"documentos/tutorial-pagamento-taxas-rvdd.pdf","tipo":"secundario"},
+      {"rotulo":"Tutorial de pagamento","url":"./tutorial-pagamento-taxas-rvdd.pdf","tipo":"secundario"},
       {"rotulo":"Requerimento RVDD","url":"https://bio.ufpr.br/biomedicina/wp-content/uploads/sites/4/2026/08/Requerimento_RVDD.pdf","tipo":"secundario"}
     ]
   },
@@ -84,7 +84,7 @@
     ],
     "botoes": [
       {"rotulo":"Pagar taxa na UFPR","url":"https://intranet.ufpr.br/arrecadacao/public/index.jsf","tipo":"primario"},
-      {"rotulo":"Consultar orientações completas","url":"documentos/orientacoes-diploma-digital.pdf","tipo":"secundario"}
+      {"rotulo":"Consultar orientações completas","url":"./orientacoes-diploma-digital.pdf","tipo":"secundario"}
     ]
   },
   "decisor": {
