@@ -3,7 +3,7 @@ const FALLBACK={
  versao:"3.0",atualizacao:"04/09/2026",siga:"https://sistemas.ufpr.br/",taxa_rvdd:"R$ 75,00",
  processo_sei:"23075.054060/2026-11",memorando:"Memorando nº 201/2026/UFPR/R/PROGRAP/COPAP/UDIP",
  assunto_memorando:"Implementação do módulo de solicitação de impressão da RVDD via SIGA / Portal do Egresso (Acesso Externo)",
- retirada:"Setor de Atendimento da PROGRAP",tutorial_url:"",
+ retirada:"Setor de Atendimento da PROGRAP",pagamento_rvdd:"https://intranet.ufpr.br/arrecadacao/public/index.jsf",tutorial_url:"",
  nota_tutorial:"O tutorial oficial poderá ser vinculado aqui após sua publicação no WordPress da Biomedicina."
 };
 const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
@@ -12,9 +12,10 @@ function render(d){
  const tutorial=d.tutorial_url?`<a class="btn sec" href="${esc(d.tutorial_url)}" target="_blank" rel="noopener">Tutorial oficial da PROGRAP</a>`:`<p class="alerta"><strong>Tutorial oficial:</strong> ${esc(d.nota_tutorial)}</p>`;
  document.querySelector("#app").innerHTML=`
  <header class="hero"><h1>Diplomas — Biomedicina UFPR</h1><p>Orientações para egressos sobre Diploma Digital, impressão da RVDD, correção de dados e segunda via de diplomas originalmente físicos.</p></header>
- <aside class="atualizacao"><h2>Procedimento atualizado em setembro de 2026</h2>
+ <aside class="atualizacao">
  <p>A solicitação de impressão da Representação Visual do Diploma Digital (RVDD) passou a ser realizada diretamente pelo egresso por meio do <strong>SIGA – Portal do Egresso (Acesso Externo)</strong>.</p>
- <p>A atualização foi comunicada pela Unidade de Diplomas/PROGRAP por meio do <strong>${esc(d.memorando)}</strong>, no âmbito do <strong>Processo SEI nº ${esc(d.processo_sei)}</strong>, que tratou da “${esc(d.assunto_memorando)}”.</p></aside>
+ <p><strong>Processo SEI nº ${esc(d.processo_sei)}</strong></p>
+ </aside>
  <nav class="acessos" aria-label="Acessos rápidos">
   <a class="card-link" href="#diploma-digital">🎓 Diploma Digital</a><a class="card-link" href="#rvdd">🖨️ RVDD impressa</a>
   <a class="card-link" href="#correcao">✏️ Correção de dados</a><a class="card-link" href="#segunda-via">📜 2ª via física</a>
@@ -27,7 +28,7 @@ function render(d){
  <div class="passos">
   <div class="passo"><strong>Acesse o Portal de Sistemas.</strong><br>Entre em <strong>Acesso Externo – SIGA</strong> e faça login com CPF e a senha anteriormente utilizada no Portal do Aluno.</div>
   <div class="passo"><strong>Abra “Impressão Diploma”.</strong><br>No menu lateral, escolha <strong>Impressão Diploma → Solicitar Impressão</strong>.</div>
-  <div class="passo"><strong>Realize o pagamento.</strong><br>Utilize somente o link oficial de pagamento indicado no próprio sistema. A taxa informada é de <strong>${esc(d.taxa_rvdd)}</strong>.</div>
+  <div class="passo"><strong>Realize o pagamento.</strong><br>A taxa informada é de <strong>${esc(d.taxa_rvdd)}</strong>. Você pode acessar o Portal de Arrecadação da UFPR pelo botão abaixo. Durante a solicitação, confira também as orientações exibidas no próprio SIGA.<br><a class="btn sec" href="${esc(d.pagamento_rvdd)}" target="_blank" rel="noopener">Pagar taxa da RVDD – R$ 75,00</a></div>
   <div class="passo"><strong>Faça o upload do comprovante.</strong><br>Anexe o comprovante de pagamento no próprio SIGA.</div>
   <div class="passo"><strong>Conclua a solicitação.</strong><br>Após anexar o comprovante, clique em <strong>Solicitar Impressão</strong>.</div>
   <div class="passo"><strong>Acompanhe pelo sistema.</strong><br>A disponibilidade para retirada poderá ser acompanhada no próprio SIGA. A entrega física ocorre no <strong>${esc(d.retirada)}</strong>.</div>
