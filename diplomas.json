@@ -11,7 +11,7 @@
     "botoes": [
       {
         "rotulo": "Acessar Portal do Egresso ↗",
-        "url": "https://siga.ufpr.br/siga/login",
+        "url": "https://sistemas.ufpr.br/",
         "estilo": "primary",
         "externo": true
       },
@@ -91,7 +91,7 @@
         "icone": "🎓",
         "titulo": "Portal do Egresso",
         "descricao": "Acesse o SIGA e selecione o perfil Discente Egresso.",
-        "url": "https://siga.ufpr.br/siga/login",
+        "url": "https://sistemas.ufpr.br/",
         "externo": true
       },
       {
